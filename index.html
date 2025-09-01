@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The world hospital</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="techlogo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="https://forbes.ge/en/">HOME</a></li>
+                    <li><a href="https://www.hopkinsmedicine.org/about">ABOUT US</a></li>
+                    <li><a href="https://www.hopkinsmedicine.org/employment">SERVICES</a></li>
+                    <li><a href="https://www.hopkinsmedicine.org/patient-care/johns-hopkins-medicine-request-appointment">APPOINTMENT</a></li>
+                    <li><a href="https://www.hopkinsmedicine.org/research">CONTACT US</a></li>
+                </ul>
+
+            </div>
+             <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>world's Biggest hospital</h1>
+            <p>Making website is now one of the easiest thing in the world. Youjust need to learn HTML, CSS, <br>Javescript and you are good to go.
+            </p>
+            <a href="https://www.hopkinsmedicine.org/the-johns-hopkins-hospital" class="hero-btn">Visit us to know More</a>
+        </div>
+        
+    </section>
+
+        <!--------OUR OFFERS------->
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    . </p>
+                </div>
+                <div class="course-col">
+                    <h3>PHD</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     </p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     </p>
+                </div>
+            </div>
+        </section>
+
+<!--------javaSript for Toggle Menu--------->
+
+<script>
+
+    var navlinks = document.getElementById("nav-links")
+
+    function showMenu(){
+        navlinks.style.right ="0";
+    }
+
+    function hideMenu(){
+        navlinks.style.right ="-200px";
+    }
+</script>
+
+
+<section class="campus">
+    <h1>Our Global Hospital</h1>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="nurse.jpg">
+            <div class="layer">
+                <h3>LODON</h3>
+            
+            </div>
+        </div>
+         <div class="campus-col">
+            <img src="one of larger.jpg">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            
+            </div>
+        </div>
+         <div class="campus-col">
+            <img src="the biggest.webp">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+    <div class="row">
+         <div class="facilities-col">
+            <img src="nurse.jpg">
+        <h3>The bigest hospital in the world</h3>
+        <p>Nurses at Maine’s biggest hospital complex unionize</p>
+         </div>
+        <div class="facilities-col">
+            <img src="inside.webp">
+        <h3>Lagest health Ground</h3>
+        <p>LDP and Komeito lawmakers pose with U.S. Navy officers before the Mercy on Jun.16</p>
+        </div>
+        <div class="facilities-col">
+            <img src="one of larger.jpg">
+        <h3>One of world’s largest hospital ship makes first port of call</h3>
+        <p>LDP and Komeito lawmakers pose with U.S. Navy officers before the Mercy on Jun.16</p>
+    </div>
+    </div>
+
+</section>
+
+<section class="Health">
+    <div>
+           
+        <a href="" class="hero-btn red-btn">visit us here to check out</a>
+    </div>
+
+</section>
+
+            <!-- OUR SERVICES -->
+ <section id="services">
+            <div class="container">
+                                    <br><br> <h3>Our Services</h3>
+                <div class="service">
+                    <div class="service-box">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Cardiology</h3>
+                        <p>Advanced heart care, from diagnosis to treatment and rehabilitation.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-brain"></i>
+                        <h3>Neurology</h3>
+                        <p>Expert care for disorders of the brain, spinal cord, and nervous system.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-baby"></i>
+                        <h3>Pediatrics</h3>
+                        <p>Compassionate and comprehensive healthcare for children of all ages.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-x-ray"></i>
+                        <h3>Radiology</h3>
+                        <p>State-of-the-art imaging services for accurate diagnoses.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-user-md"></i>
+                        <h3>General Surgery</h3>
+                        <p>A wide range of surgical procedures performed by skilled surgeons.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="fas fa-ambulance"></i>
+                        <h3>Emergency Care</h3>
+                        <p>24/7 emergency services for immediate medical attention.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+                    <!-- MEET OUR DOCTORS -->
+         <section id="doctors">
+            <div class="container">
+                <h3>Meet Our Doctors</h3>
+                <div class="doctors">
+                    <div class="box">
+                        <img src="dr. Emily.jpeg" alt="https://health.usnews.com/doctors/emily-carter-779339">
+                        <h3>Dr. Emily Carter</h3>
+                        <p>Cardiologist</p>
+                    </div>
+                    <div class="box">
+                        <img src="adams.jpeg" alt="https://health.usnews.com/doctors/david-adams-3558">
+                        <h3>Dr. Ben Adams</h3>
+                        <p>Neurologist</p>
+                    </div>
+                    <div class="box">
+                        <img src="lee h.jpeg" alt="https://health.usnews.com/doctors/lee-schwamm-206474">
+                        <h3>Dr. Sophia Lee</h3>
+                        <p>Pediatrician</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Appointment -->
+
+         <section id="appointment">
+            <div class="container">
+                <h3>Book an Appointment</h3>
+                <p class="appointment-0">.</p>
+                    </div>
+                    <div class="discription">
+                        <label for="department">Department</label>
+                        <select id="department" name="department" required>
+                            <option value="Emergency Care">Select a Department</option>
+                            <option value="cardiology">Cardiology</option>
+                            <option value="neurology">Neurology</option>
+                            <option value="pediatrics">Pediatrics</option>
+                            <option value="radiology">Radiology</option>
+                        </select>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+
+         <footer>
+        <div class="container footer-content">
+            <div class="footer-about">
+                <h3>General Health Hospital</h3>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: contact@generalhealth.com</p>
+            </div>
+            <div class="footer-links">
+                <h3></h3>
+                <ul>
+                 <li><a href="#services">Services</a></li>
+                 <li><a href="#doctors">Find a Doctor</a></li>
+                <li><a href="#about">About Us</a></li>
+                 <li><a href="#appointment">Appointments</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3></h3><br><br>
+                <a href="University of Ghana Medical Centre LTD" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/RidgeHospitalGH" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/ridgehospital/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://achimotahospital.gov.gh/about/" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024. All Copy right Reserved.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
